@@ -5,7 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "The Coffee Blog",
+  },
   plugins: [
     {
       resolve: "gatsby-plugin-postcss",
