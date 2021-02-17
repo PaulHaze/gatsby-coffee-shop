@@ -15,5 +15,6 @@ module.exports = {
         postCssPlugins: [require("tailwindcss")("./tailwind.config.js")],
       },
     },
+    "gatsby-plugin-netlify-cms",
   ],
 }
